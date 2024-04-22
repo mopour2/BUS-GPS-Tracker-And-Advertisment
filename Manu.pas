@@ -1,3 +1,4 @@
+//Mohammad Reza Pour emad
 unit Manu;
 
 interface
@@ -123,7 +124,7 @@ begin
 PathMap:=PathInstall+'map\';
 
 DM1.ADOTableCity.Open;
-DM1.ADOTableCity.Filter:='FlagSelect=''İÚÇá''';
+DM1.ADOTableCity.Filter:='FlagSelect=''ÃÃšÃ‡Ã¡''';
 DM1.ADOTableCity.Filtered:=true;
 if DM1.ADOTableCity.RecordCount >0 then
  begin
